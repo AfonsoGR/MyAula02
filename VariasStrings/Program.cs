@@ -6,6 +6,8 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            //comando para unicode
+            Console.OutputEncoding = Encoding.UTF8; //not sure if working or not
             //formatação de strings (ex 3 - variáveis)
             double xx = 0.12345;
             int ii = 18;

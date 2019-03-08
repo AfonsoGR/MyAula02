@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariasStrings", "VariasStrings\VariasStrings.csproj", "{EFD2D2BB-1ACB-4B6A-8655-D149FE8D816A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cilindro", "Cilindro\Cilindro.csproj", "{4D28D31E-3867-4C6D-A997-90802D6041FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cilindro", "Cilindro\Cilindro.csproj", "{4D28D31E-3867-4C6D-A997-90802D6041FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValoresEspeciais", "ValoresEspeciais\ValoresEspeciais.csproj", "{C5383890-7C48-4E54-A512-6C56FDA459EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4D28D31E-3867-4C6D-A997-90802D6041FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D28D31E-3867-4C6D-A997-90802D6041FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D28D31E-3867-4C6D-A997-90802D6041FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5383890-7C48-4E54-A512-6C56FDA459EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5383890-7C48-4E54-A512-6C56FDA459EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5383890-7C48-4E54-A512-6C56FDA459EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5383890-7C48-4E54-A512-6C56FDA459EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,8 +8,7 @@ namespace Cilindro
         {
             //declarar variáveis
             string alturaS, raioS;
-            float alturaF, raioF, volume, areasup;
-            float pi = 3.1415926f;
+            double alturaF, raioF, volume, areasup;
             //pedir altura
             Console.WriteLine("Introduza a altura:\n");
             alturaS = Console.ReadLine();
@@ -21,9 +20,9 @@ namespace Cilindro
             //converter raio em float
             raioF = Convert.ToSingle(raioS);
             //calcular volume
-            volume = pi * raioF * raioF * alturaF;
+            volume = Math.PI * Math.Pow(raioF,2) * alturaF;
             //calcular area superficial
-            areasup = 2 * pi * raioF * (raioF * alturaF);
+            areasup = 2 * Math.PI * raioF * (raioF * alturaF);
             //apresentar os resultados
             Console.WriteLine($"O volume é {volume:f3}");
             Console.WriteLine("A área de superfície é {0:f3}",areasup);
